@@ -29,7 +29,7 @@
 <body>
 
 <header>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg">
   <img src="assets/img/LibertadLogoNuevo.png" class="mini"  alt="">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -271,78 +271,128 @@
  </section><!-- End Book A Table Section -->
 
     <!-- ======= Testimonials Section ======= -->
+<section>
+  <h1>Galeria</h1>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/slider1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/slider2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/slider3.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/slider4.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</section>
+
+<!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contacto</h2>
+          <p style="color: #FFFDD2;">Dónde Estamos</p>
+        </div>
+      </div>
+
+      <div data-aos="fade-up">
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13401.639549322023!2d-68.8491912!3d-32.8873295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f97c2f7ccd35b55!2sLibertad%20Parrilla!5e0!3m2!1ses!2sar!4v1645369719546!5m2!1ses!2sar" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Dirección:</h4>
+                <p>Belgrano 1227, Ciudad de Mendoza.</p>
+              </div>
+
+              <div class="open-hours">
+                <i class="bi bi-clock"></i>
+                <h4>Horarios:</h4>
+                <p>
+                  Lunes a Domingo:<br>
+                  11:00 AM - 2300 PM
+                </p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Teléfono:</h4>
+                <p>123456789</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="8" placeholder="Mensaje" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
 
 
 
 
 <!--carousell-->
-<section class="container-fluid">
-		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="3000">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <picture>
-        <source media="(max-width: 500px)" srcset="assets/img/carouselprueba1.jpg" >
-      <img src="assets/img/carousel1grande.png"  class="d-block w-100" alt="...">
-      <a href="pages/soluciones.html">
-      <div class="carousel-caption d-none d-md-block"></a>
-      </div>
-      </picture>
-    </div>
-    <div class="carousel-item">
-      <picture>
-        <source media="(max-width: 500px)" srcset="assets/img/carouselprueba2.jpg" >
-      <img src="assets/img/carousel2grande.png" height="475" class="d-block w-100 img-responsive" alt="...">
-      <a href="pages/nosotros.html">
-      <div class="carousel-caption d-none d-md-block"></a>
-      </div>
-      </picture>
-    </div>
-    <div class="carousel-item">
-      <picture>
-        <source media="(max-width: 500px)" srcset="assets/img/carouselprueba3.jpg" >
-          <img src="assets/img/carousel3grande.png" height="475" class="d-block w-100 img-responsive" alt="..."> 
-      <a href="pages/novedades.html">
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-    </picture>
-    </div>
-    <div class="carousel-item">
-      <picture>
-        
-        <source media="(max-width: 500px)" srcset="assets/img/carouselprueba4.jpg" >
-          <!--<a href="pages/contacto.html">-->
-      <img src="assets/img/carousel4grande.png" height="475" class="d-block w-100 img-responsive" alt="..."></a>
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-    </picture>
-    </div>
-    <div class="carousel-item">
-      <picture>
-        <source media="(max-width: 500px)" srcset="assets/img/carouselprueba5.jpg" >
-          <!--<a href="pages/novedades.html">-->
-      <img src="assets/img/carousel5grande.png" height="475" class="d-block w-100" alt="..."></a>
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-    </div>
-  </picture>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-	</section>
+
   <!--jumbotron-->
 
 
@@ -352,27 +402,7 @@
 
 
 <!--contactos-->
-<div class="custom-shape-divider-top-1630250900">
-</div>
-<div class="card-columns container">
-  <div class="card row col-lg-12 gradient-customnov hvr-grow-shadow" data-aos="zoom-in" data-aos-duration="2000">
-    <div class="card-header centro">Dirección</div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.11056761375!2d-68.7322063855041!3d-32.97448458062656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0d437c1ec191%3A0x5902e87801e654e6!2sJulio%20Argentino%20Roca%203881%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1632268462108!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <p style="font-style: italic;" class="text-muted">Julio Roca 3881. CP 5515</p>
-    <p style="font-style: italic;" class="text-muted">Maipú. Mendoza. Argentina</p>
-    
 
-  </div>
-  <div class="card row pl-8 gradient-customnov hvr-grow-shadow" data-aos="zoom-in" data-aos-duration="2000" style="width: 100%">
-    <div class="card-header">Nuestros Telefonos</div>
-    <img src="assets/img/telefono.png" class="card-img hvr-grow-shadow" alt="...">
-  </div>
-  <div class="card row pl-8 gradient-customnov hvr-grow-shadow" data-aos="zoom-in" data-aos-duration="2000">
-    <div class="card-header">Contactanos</div>
-    <a href="pages/contacto.html">
-    <img src="assets/img/call.jpg" class="card-img hvr-grow-shadow" alt="..."> </a>
-  </div>
-</div>
 <!-- Footer -->
 <button
         type="button"
