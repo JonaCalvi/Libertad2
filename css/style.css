@@ -8,10 +8,13 @@ body{
 }
 
 nav{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
+  font-size: 17px;
   background-color: #FFFDD2;  
   position: fixed;
+
+
 
 }
 
@@ -68,7 +71,7 @@ nav{
   background-color: #FFFDD2; !important;
   font-weight: 400;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   display: inline-block;
@@ -79,6 +82,7 @@ nav{
   color: black;
   border: 2px solid #FFC900;
   font-family: 'Playfair Display', serif;
+  text-decoration: none;
 }
 #hero .btn-menu:hover, #hero .btn-book:hover {
   background: #FFFA90;
@@ -1106,6 +1110,10 @@ img.pequenia {
 }
 .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
   color: #fff;
+}
+
+.titulo {
+  font-family:'Playfair Display', serif;
 }
 
 /*--------------------------------------------------------------
