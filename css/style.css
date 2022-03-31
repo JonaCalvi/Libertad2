@@ -18,6 +18,8 @@ nav{
 
 }
 
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -28,6 +30,8 @@ nav{
   background-size: cover;
   position: relative;
   padding: 0;
+
+
 }
 #hero:before {
   content: "";
@@ -987,6 +991,16 @@ img.pequenia {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(to bottom, rgba(79, 172, 254, 0.5), rgba(0, 242, 254, 0.5))
 }
+.gradient-custom6 {
+  /* fallback for old browsers */
+  background: #f6d365;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom, rgba(246, 211, 101, 0.25), rgba(249, 82, 36, 0.25));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, rgba(246, 211, 101, 0.25), rgba(249, 82, 36, 0.25))
+}
 
 /*--------------------------------------------------------------
 # About
@@ -1323,5 +1337,72 @@ img.pequenia {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Gift Card
+--------------------------------------------------------------*/
+
+
+#giftcard {
+  width: 100%;
+  height: 80vh;
+  background: url("../assets/img/giftcard.png") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+@media (min-width: 1024px) {
+  #giftcard {
+    background-attachment:;
+  }
+}
+@media (max-width: 992px) {
+  #giftcard .play-btn {
+    margin-top: 30px;
+  }
+}
+@media (max-height: 500px) {
+  #giftcard {
+    height: auto;
+  }
+  #giftcard .container {
+    padding-top: 130px;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 768px) {
+  #giftcard h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #giftcard h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
   }
 }
