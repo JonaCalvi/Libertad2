@@ -1445,3 +1445,10 @@ img.pequenia {
   #trabaja .container {
     padding-top:;
   }
+
+
+
+  .TituloTrabaja h1{
+    font-family: 'Playfair Display', serif;
+    color: white;
+  }
