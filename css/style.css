@@ -1446,9 +1446,15 @@ img.pequenia {
   #trabaja .container {
     padding-top:;
   }
+  @media (max-width: 422px) {
+    .profile-details {
+        flex-direction: column;
+    }
+ } 
 .jumbo{
   color: white;
   background-color: black; 
+
 }
 
 
@@ -1511,14 +1517,3 @@ img.pequenia {
   right: 0;
 }
 
-* {
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-}
-*:before,
-*:after {
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-}
