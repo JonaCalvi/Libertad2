@@ -1446,13 +1446,10 @@ img.pequenia {
   #trabaja .container {
     padding-top:;
   }
-
-
-
-  .TituloTrabaja h1{
-    font-family: 'Playfair Display', serif;
-    color: white;
-  }
+.jumbo{
+  color: white;
+  background-color: black; 
+}
 
 
 
@@ -1482,3 +1479,34 @@ img.pequenia {
 }
 
 
+
+
+/* Underline From Left */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(32, 152, 209, 0.8);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #2098D1;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
