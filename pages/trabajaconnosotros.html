@@ -70,6 +70,8 @@
 
 
 <!--==Formulario==-->
+
+<!--
 <section id="trabaja">
 <div class="container"> <div class=" text-center mt-5 ">
         <h1 style="color: white;">Mandanos tu C.V.</h1>
@@ -79,7 +81,7 @@
             <div class="card mt-2 mx-auto p-4 bg-light">
                 <div class="card-body bg-light">
                     <div class="container">
-                        <form id="contact-form" role="form">
+                        <form id="contact-form" role="form" method="POST" action="https://script.google.com/macros/s/AKfycbyFbEYFfXB6GGHPaf0dpy8aCqLgBxcTPfn8AzWF3pWFMtql2ela/exec">
                             <div class="controls">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -104,24 +106,14 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6">
-    <label for="banner">Subí tu C.V</label>
-    <div class="input-group">
-        <label class="input-group-btn">
-      <span class="btn btn-primary btn-file">
-                Curriculum Vitae<input accept=".jpg,.png,.jpeg,.gif" class="hidden" name="banner" type="file" id="banner">
-            </span>
-        </label>
-        <input class="form-control" id="banner_captura" readonly="readonly" name="banner_captura" type="text" value="">
-    </div>
-</div>
-                                    <div class="col-md-12"> <input type="submit" class="btn btn-primary btn-send pt-2 btn-block " value="Enviar"> </div>
+  
+                                    <div class="col-md-12"> <input type="submit" class="btn btn-primary btn-send pt-2 btn-block href="https://jonacalvi.trabajo@gmail.com value="Enviar"> </div>
                                 </div>
                                 </div>
                             </div>
                         </form>
                     </div>
-                </div>
+                </div>-->
             </div> <!-- /.8 -->
         </div> <!-- /.row-->
     </div>
@@ -130,22 +122,21 @@
 
 
 
-<!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/xknkpvpd"
-  method="POST"
-  enctype="multipart/form-data"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your file:
-    <input type="file" name="upload">
-  </label>
-  <button type="submit">Send</button>
-</form>
+<div class="card text-center">
+  <div class="card-header">
+    
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Envianos tu C.V incluyendo la posición que te interesa</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="mailto:jonacalvi.trabajo@gmail.com" target="_blank" class="btn btn-primary">Hacé click</a>
+  </div>
+  <div class="card-footer text-muted">
+    
+  </div>
+</div>
+
+
 
 <!-- controlador -->
 <!--  public function store(CreateEmpresaRequest $request){
@@ -226,5 +217,7 @@
   AOS.init();
 </script>
 <script src="../js/java.js"></script>
+<script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
 </html>
