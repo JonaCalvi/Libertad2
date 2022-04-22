@@ -1646,3 +1646,11 @@ img.pequenia {
   right: 0;
 }
 
+
+
+.parallax{
+height:500px;
+background-image:url("../assets/img/parrilla3.jpg");
+background-size:cover;
+background-attachment: fixed;
+}
