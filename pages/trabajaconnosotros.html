@@ -88,22 +88,6 @@
 
 
 
-<!-- controlador -->
-<!--  public function store(CreateEmpresaRequest $request){
-        $input = $request->all();
-        if($request->hasFile('banner')){
-            $file = $request->file('banner');
-            $extension= $file->getClientOriginalExtension();
-            $nombreImagen = 'logo.'.$extension;
-            $file->move(public_path().'/img/uploads/empresa',$nombreImagen);
-            $input['banner']=$nombreImagen;
-        }
-    $empresa = $this->empresaRepository->store($input);
-    Flash::message('Datos Almacenados Correctamente.');
-    return redirect(route('empresas.index'));
-  }-->
-
-
 
 
 <button
