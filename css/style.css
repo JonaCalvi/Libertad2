@@ -1,6 +1,6 @@
 .container-fluid{padding-left: 0px;padding-right: 0px;}
 body{
-  background-color: black;
+  background-color:black;
 }
 
 
@@ -1122,12 +1122,18 @@ btn-back-to-top {
 
 
 .parallax{
-height:500px;
-background-image:url("../assets/img/parrilla3.jpg");
-background-size:cover;
-background-attachment: fixed;
+height:500px; 
+background-image:url("../assets/img/parrilla3.jpg"); 
+background-size:cover; 
+background-attachment: fixed; 
 }
 
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .patallax {
+    margin-top: 98px;
+  }
+}
 
 
 
@@ -1464,4 +1470,197 @@ background-attachment: fixed;
   font-family: 'Playfair Display', serif;
   padding-bottom: 30px;
   text-shadow: rgb(8, 8, 8) 3px 0px 0px, rgb(8, 8, 8) 2.83487px 0.981584px 0px, rgb(8, 8, 8) 2.35766px 1.85511px 0px, rgb(8, 8, 8) 1.62091px 2.52441px 0px, rgb(8, 8, 8) 0.705713px 2.91581px 0px, rgb(8, 8, 8) -0.287171px 2.98622px 0px, rgb(8, 8, 8) -1.24844px 2.72789px 0px, rgb(8, 8, 8) -2.07227px 2.16926px 0px, rgb(8, 8, 8) -2.66798px 1.37182px 0px, rgb(8, 8, 8) -2.96998px 0.42336px 0px, rgb(8, 8, 8) -2.94502px -0.571704px 0px, rgb(8, 8, 8) -2.59586px -1.50383px 0px, rgb(8, 8, 8) -1.96093px -2.27041px 0px, rgb(8, 8, 8) -1.11013px -2.78704px 0px, rgb(8, 8, 8) -0.137119px -2.99686px 0px, rgb(8, 8, 8) 0.850987px -2.87677px 0px, rgb(8, 8, 8) 1.74541px -2.43999px 0px, rgb(8, 8, 8) 2.44769px -1.73459px 0px, rgb(8, 8, 8) 2.88051px -0.838247px 0px;
+}
+
+
+
+#hero4 {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.90) 100%),  url("../assets/img/parrilla3.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+
+
+}
+#hero4:before {
+  content: "";
+  
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#hero4 .container {
+  padding-top: 110px;
+}
+@media (max-width: 1200px) {
+  #hero4 .container {
+    padding-top: 98px;
+  }
+}
+#hero4 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+#hero4 h1 span {
+  color: #cda45e;
+}
+#hero4 h2 {
+  color: #eee;
+  margin-bottom: 10px 0 0 0;
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+}
+#hero4 .btns {
+  margin-top: 30px;
+  text-align: center;
+}
+#hero4 .btn-menu, #hero4 .btn-book {
+  background-color: #FFFDD2; !important;
+  font-weight: 400;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: black;
+  border: 2px solid #FFC900;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+}
+#hero4 .btn-menu:hover, #hero4 .btn-book:hover {
+  background: #FFFA90;
+  color: black;
+
+}
+#hero4 .btn-book {
+  margin-left: 15px;
+}
+#hero4 .play-btn {
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+#hero4 .play-btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+#hero4 .play-btn::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate-btn 2s;
+  animation: pulsate-btn 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 201, 0, 0.7);
+  top: -15%;
+  left: -15%;
+  background: rgba(198, 16, 0, 0);
+}
+#hero4 .play-bt4n:hover::after {
+  border-left: 15px solid #FFC900;
+  transform: scale(20);
+}
+#hero4 .play-btn:hover::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  -webkit-animation: none;
+  animation: none;
+  border-radius: 0;
+}
+@media (min-width: 1024px) {
+  #hero4 {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #hero4 .play-btn {
+    margin-top: 30px;
+  }
+}
+@media (max-height: 500px) {
+  #hero4 {
+    height: auto;
+  }
+  #hero4 .container {
+    padding-top: 130px;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 768px) {
+  #hero4 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero4 h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
 }
