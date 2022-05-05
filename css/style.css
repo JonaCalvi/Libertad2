@@ -9,7 +9,7 @@ nav{
   font-family: 'Playfair Display', serif;
   font-weight: bold;
   font-size: 17px;
-  background-color: #791D06;  
+  background-color: #BF4C0D;  
   position: fixed;
 
 
@@ -301,7 +301,7 @@ iframe {
 }
 
 .mini{
-  height: 90px;
+  height: 115px;
   width: auto;
 }
 
