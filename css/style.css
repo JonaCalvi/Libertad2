@@ -757,7 +757,7 @@ btn-back-to-top {
   padding-bottom: 8px;
 }
 
-.contact .estiloform input, .contact .php-email-form textarea {
+.contact .estiloform input, .contact .estiloform textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
