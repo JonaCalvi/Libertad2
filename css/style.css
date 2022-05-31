@@ -274,6 +274,7 @@ height: auto;
 
 h4{
   font-size: 20px;
+  font-family: 'Source Sans Pro' , sans-serif;
 }
 
 /*p{
@@ -307,6 +308,7 @@ iframe {
 
 h2{
   text-align: center;
+  font-family: 'Source Sans Pro' , sans-serif;
 }
 h5{
   text-align: center;
@@ -621,12 +623,14 @@ btn-back-to-top {
   padding: 0;
   margin: 20px 0;
   color: rgba(255, 255, 255, 0.8);
+  font-family: 'Source Sans Pro' , sans-serif;
 }
 .why-us .box p {
   color: #aaaaaa;
   font-size: 15px;
   margin: 0;
   padding: 0;
+  font-family: 'Source Sans Pro' , sans-serif;
 }
 .why-us .box:hover {
   background: #B07F00;
@@ -638,7 +642,7 @@ btn-back-to-top {
 }
 
 .titulo {
-  font-family:'Playfair Display', serif;
+font-family: 'Source Sans Pro' , sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -680,6 +684,7 @@ btn-back-to-top {
   font-weight: 600;
   font-size: 26px;
   color: #cda45e;
+  font-family: 'Source Sans Pro' , sans-serif;
 }
 .events .event-item .price {
   font-size: 26px;
@@ -1821,4 +1826,13 @@ background-attachment: fixed;
 .subtitulo1{
   font-family: 'Source Sans Pro', sans-serif;
   font-style: italic;
+}
+
+.eventosTexto{
+  font-family: 'Source Sans Pro' , sans-serif;
+  font-style: italic;
+}
+
+.galeria{
+  font-family: 'Source Sans Pro' , sans-serif;
 }
