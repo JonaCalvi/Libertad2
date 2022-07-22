@@ -624,6 +624,7 @@ btn-back-to-top {
   margin: 20px 0;
   color: rgba(255, 255, 255, 0.8);
   font-family: 'Source Sans Pro' , sans-serif;
+  text-align: center;
 }
 .why-us .box p {
   color: #aaaaaa;
@@ -631,6 +632,7 @@ btn-back-to-top {
   margin: 0;
   padding: 0;
   font-family: 'Source Sans Pro' , sans-serif;
+  text-align: center;
 }
 .why-us .box:hover {
   background: #B07F00;
