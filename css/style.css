@@ -11,11 +11,17 @@ nav{
   font-size: 17px;
   background-color: #B07F00;  
   position: fixed;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(176, 127, 0, 1) 100%),  url("../assets/img/FondosLibertad2.jpg") top center;
 
 
 
 }
 
+.nav-item.active .nav-link,
+ .nav-item:focus .nav-link,
+ .nav-item:hover .nav-link {
+    color: pink;
+}
 
 
 /*--------------------------------------------------------------
